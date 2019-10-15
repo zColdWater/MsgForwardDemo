@@ -14,6 +14,10 @@
 		4F92C3092355B0F800F0170D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F92C3082355B0F800F0170D /* Assets.xcassets */; };
 		4F92C30C2355B0F800F0170D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F92C30A2355B0F800F0170D /* LaunchScreen.storyboard */; };
 		4F92C30F2355B0F800F0170D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F92C30E2355B0F800F0170D /* main.m */; };
+		4F92C3172355B13900F0170D /* AnyObjectA.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F92C3162355B13900F0170D /* AnyObjectA.m */; };
+		4F92C31A2355B74600F0170D /* AnyObjectB.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F92C3192355B74600F0170D /* AnyObjectB.m */; };
+		4F92C31D2355B7B900F0170D /* AnyObjectBHelp.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F92C31C2355B7B900F0170D /* AnyObjectBHelp.m */; };
+		4F92C3202355B8DC00F0170D /* AnyObjectC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F92C31F2355B8DC00F0170D /* AnyObjectC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +33,14 @@
 		4F92C30B2355B0F800F0170D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4F92C30D2355B0F800F0170D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4F92C30E2355B0F800F0170D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4F92C3152355B13900F0170D /* AnyObjectA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnyObjectA.h; sourceTree = "<group>"; };
+		4F92C3162355B13900F0170D /* AnyObjectA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnyObjectA.m; sourceTree = "<group>"; };
+		4F92C3182355B74600F0170D /* AnyObjectB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnyObjectB.h; sourceTree = "<group>"; };
+		4F92C3192355B74600F0170D /* AnyObjectB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnyObjectB.m; sourceTree = "<group>"; };
+		4F92C31B2355B7B900F0170D /* AnyObjectBHelp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnyObjectBHelp.h; sourceTree = "<group>"; };
+		4F92C31C2355B7B900F0170D /* AnyObjectBHelp.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnyObjectBHelp.m; sourceTree = "<group>"; };
+		4F92C31E2355B8DC00F0170D /* AnyObjectC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnyObjectC.h; sourceTree = "<group>"; };
+		4F92C31F2355B8DC00F0170D /* AnyObjectC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnyObjectC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +84,14 @@
 				4F92C30A2355B0F800F0170D /* LaunchScreen.storyboard */,
 				4F92C30D2355B0F800F0170D /* Info.plist */,
 				4F92C30E2355B0F800F0170D /* main.m */,
+				4F92C3152355B13900F0170D /* AnyObjectA.h */,
+				4F92C3162355B13900F0170D /* AnyObjectA.m */,
+				4F92C3182355B74600F0170D /* AnyObjectB.h */,
+				4F92C3192355B74600F0170D /* AnyObjectB.m */,
+				4F92C31B2355B7B900F0170D /* AnyObjectBHelp.h */,
+				4F92C31C2355B7B900F0170D /* AnyObjectBHelp.m */,
+				4F92C31E2355B8DC00F0170D /* AnyObjectC.h */,
+				4F92C31F2355B8DC00F0170D /* AnyObjectC.m */,
 			);
 			path = MsgForwardDemo;
 			sourceTree = "<group>";
@@ -146,8 +166,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F92C31A2355B74600F0170D /* AnyObjectB.m in Sources */,
+				4F92C3202355B8DC00F0170D /* AnyObjectC.m in Sources */,
 				4F92C3042355B0F700F0170D /* ViewController.m in Sources */,
+				4F92C3172355B13900F0170D /* AnyObjectA.m in Sources */,
 				4F92C2FE2355B0F700F0170D /* AppDelegate.m in Sources */,
+				4F92C31D2355B7B900F0170D /* AnyObjectBHelp.m in Sources */,
 				4F92C30F2355B0F800F0170D /* main.m in Sources */,
 				4F92C3012355B0F700F0170D /* SceneDelegate.m in Sources */,
 			);
